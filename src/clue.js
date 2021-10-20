@@ -182,8 +182,7 @@ function revealMystery(envelope) {
   let weapon = envelope.weapon.name;
   let room = envelope.room.name;
 
-  let message = `${firstName} ${lastName} killed Mr. Boddy using the ${weapon} in the ${room}!`;
-  return message
+  return `${firstName} ${lastName} killed Mr. Boddy using the ${weapon} in the ${room}!`;
 
 }
 
